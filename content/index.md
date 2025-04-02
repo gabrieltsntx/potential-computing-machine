@@ -22,7 +22,6 @@ Here's what `PowerShell` looks like:
 Import-Module MgGraph
 Connect-MgGraph -Scopes "User.Read.All"
 Get-MgUser -All | Format-Table
-
 ```
 
 Want to get in touch? [Contact me here](/contact).
