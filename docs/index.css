@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #f0e6d1;
-    font-family: "Consolas", "Georgia", serif;
+    font-family: "Tourney", "Georgia", serif;
     line-height: 1.7;
     margin: 0;
     padding: 20px;
@@ -61,7 +61,7 @@ body {
   }
   
   code {
-    background-color: #1b1b1d;
+    background-color: #3c3c42;
     border-radius: 6px;
     color: #e9c46a;
     padding: 0.4em 0.6em;
@@ -73,7 +73,7 @@ body {
   }
   
   pre {
-    background-color: #1b1b1d;
+    background-color: #3c3c42;
     border-radius: 6px;
     padding: 1em;
     overflow: auto;
@@ -81,7 +81,7 @@ body {
   }
   
   blockquote {
-    background-color: #1b1b1d;
+    background-color: #2e2c35;
     border-left: 4px solid #8d99ae;
     padding-left: 2em;
     margin-left: 0;
