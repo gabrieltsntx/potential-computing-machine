@@ -13,7 +13,7 @@ This is repository of PowerShell scripts and stuff that I've used.
 - [Moving Around a File System](/blog/moving)
 - [Powershell Customization](/blog/customize)
 
-## 
+## Index
 
 
 Here's what `PowerShell` looks like:
