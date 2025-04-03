@@ -61,7 +61,7 @@ body {
   }
   
   code {
-    background-color: #3c3c42;
+    background-color: #1b1b1d;
     border-radius: 6px;
     color: #e9c46a;
     padding: 0.4em 0.6em;
@@ -73,7 +73,7 @@ body {
   }
   
   pre {
-    background-color: #3c3c42;
+    background-color: #1b1b1d;
     border-radius: 6px;
     padding: 1em;
     overflow: auto;
@@ -81,7 +81,7 @@ body {
   }
   
   blockquote {
-    background-color: #2e2c35;
+    background-color: #1b1b1d;
     border-left: 4px solid #8d99ae;
     padding-left: 2em;
     margin-left: 0;
