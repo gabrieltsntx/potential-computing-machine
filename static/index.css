@@ -8,6 +8,8 @@ body {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border: dashed 2px #f0e6d1;
+  
   }
   
   b {
