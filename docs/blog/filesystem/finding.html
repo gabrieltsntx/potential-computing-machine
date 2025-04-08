@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finding a file or folder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="/potential-computing-machine/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <article><div><h1>Finding a file or folder</h1><p><a href="/potential-computing-machine/">< Back Home</a></p><h3>The code!!!</h3><pre><code>Get-ChildItem -Recurse -Path "C:\" -ErrorAction SilentlyContinue | Where-Object {$_.Name -like "*fileName*"}
+</code></pre><h3>Breaking it down</h3><p>Get-ChildItem lists items (files, folders) in a directory. The -Recurse flag states that it should also look in directory within the specified directory all the way down. -Path is the start point and -ErrorAction is to handle directories that you do not have access to. Without the SilentlyContinue parameter specified, the output would be filled with red text.</p><p>Following the bar, we specify what we are looking for. It states if an object has a property of Name that is like *fileName* then return it.</p></div></article>
+  </body>
+</html>
