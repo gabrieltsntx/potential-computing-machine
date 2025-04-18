@@ -37,6 +37,12 @@ Run the following to start the install process. If this is your first time runni
 Install-Module -Name PSWindowsUpdate
 ```
 
+If you get a message stating that an older version of PSWindowsUpdate is already installed, you can update the module by running the following.
+
+```
+Update-Module PSWindowsUdpate
+```
+
 ### Run PSWindows Update
 
 This is where we may start to encounter some issues that will require some troubleshooting.
