@@ -28,6 +28,7 @@ We are going to change it by:
 ```
 Set-ExecutionPolicy Bypass
 ```
+
 ### Install Module PSWindowsUpdate
 
 Run the following to start the install process. If this is your first time running an install command on a computer, you may be prompted to update NuGet and whether you trust the PSGallery. Type Y for both and press enter.
