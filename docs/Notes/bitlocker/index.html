@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <article><div><h1>Bitlocker Powershell and You</h1><p><a href="/potential-computing-machine/">< Back Home</a></p><h2>What is Bitlocker</h2><p><b>Bitlocker</b> is a Windows security feature that encrypts entire volumes. From a security stand point, this prevent someone from taking a drive from one computer, adding it to another and then reading its contents.  For maximum security, a <b>TPM</b> chip will need to be installed on the computer and enabled.</p><h2>The Code!!!</h2><pre><code>$BitLockerReadyDrive = Get-BitLockerVolume -MountPoint $env:SystemDrive -ErrorAction SilentlyContinue
+    <article><div><h1>Bitlocker Powershell and You</h1><p><a href="/potential-computing-machine/Notes">< Back</a></p><h2>What is Bitlocker</h2><p><b>Bitlocker</b> is a Windows security feature that encrypts entire volumes. From a security stand point, this prevent someone from taking a drive from one computer, adding it to another and then reading its contents.  For maximum security, a <b>TPM</b> chip will need to be installed on the computer and enabled.</p><h2>The Code!!!</h2><pre><code>$BitLockerReadyDrive = Get-BitLockerVolume -MountPoint $env:SystemDrive -ErrorAction SilentlyContinue
 $encrypt = Get-BitlockerVolume
 $tpm = Get-TPM
 if($tpm.TpmPresent -eq "True" -and $encrypt.ProtectionStatus -eq "Off")

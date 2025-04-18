@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Getting Somewhere</title>
+    <title>Finding Something</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,6 +11,7 @@
   </head>
 
   <body>
-    <article><div><h1>Getting Somewhere</h1><h2>in a File System</h2><h3>using PowerShell</h3><h4>and stuff</h4><p><a href="/potential-computing-machine/">< Back Home</a></p><h2>A list of things</h2><ul><li><a href="/potential-computing-machine/blog/filesystem/finding.md">Finding a File</a></li></ul><p></p></div></article>
+    <article><div><h1>Finding Something</h1><h2>in a File System</h2><h3>using PowerShell</h3><h4>and stuff</h4><p><a href="/potential-computing-machine/Notes">< Back</a></p><h3>The code!!!</h3><pre><code>Get-ChildItem -Recurse -Path "C:\" -ErrorAction SilentlyContinue | Where-Object {$_.Name -like "*fileName*"}
+</code></pre><h3>Breaking it down</h3><p>Get-ChildItem lists items (files, folders) in a directory. The -Recurse flag states that it should also look in directory within the specified directory all the way down. -Path is the start point and -ErrorAction is to handle directories that you do not have access to. Without the SilentlyContinue parameter specified, the output would be filled with red text.</p><p>Following the bar, we specify what we are looking for. It states if an object has a property of Name that is like *fileName* then return it.</p></div></article>
   </body>
 </html>

@@ -1,6 +1,6 @@
 # Bitlocker Powershell and You
 
-[< Back Home](/)
+[< Back](/Notes)
 
 ## What is Bitlocker
 
