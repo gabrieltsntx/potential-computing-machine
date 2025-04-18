@@ -1,5 +1,7 @@
 # Windows Updates
 
+[< Back](/Notes)
+
 This is specifically to run windows updates from the terminal.
 
 ## Using PowerShell
