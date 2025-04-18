@@ -1,3 +1,0 @@
-# Customize Placeholder
-
-[< Back Home](/)

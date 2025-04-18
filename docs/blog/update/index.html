@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Windows Updates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="/potential-computing-machine/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <article><div><h1>Windows Updates</h1><p>This is specifically to run windows updates from the background.</p><h2>Using PowerShell</h2><p>There are a few steps to take in order to run updates from the background.</p><ul><li>Set Execution Policy to Bypass</li><li>Install Module PSWindowsUpdate</li><li>Run PSWindowsUpdate</li><li>Schedule Reboot if needed</li><li>Troubleshoot as needed</li></ul><h3>Execution Policy</h3><p>The execution policy is a security feature that is meant to stop threat actors from running malicious scripts. We are going to need to bypass the default policy, <b>Restricted</b> in order work on the computer.</p><p>You can check the current policy by: <code> Get-ExecutionPolicy </code> We are going to change it by: <code> Set-ExecutionPolicy Bypass </code></p></div></article>
+  </body>
+</html>

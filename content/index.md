@@ -11,8 +11,8 @@ You might find it useful ... or not, I don't know.
 ## Latest Posts
 
 - [Bitlocker](/blog/bitlocker)
-- [Moving Around a File System](/blog/filesystem/index.md)
-- [Powershell Customization](/blog/customize)
+- [Moving Around a File System](/blog/filesystem)
+- [Updating Windows](/blog/update)
 
 ## Index
 
