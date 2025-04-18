@@ -14,9 +14,6 @@ You might find it useful ... or not, I don't know.
 - [Moving Around a File System](/Notes/filesystem)
 - [Updating Windows](/Notes/update)
 
-## Index
-
-
 Here's what `PowerShell` looks like:
 
 ```
@@ -26,5 +23,3 @@ Get-MgUser -All | Format-Table
 ```
 
 Want to see something cool -> [Astronomy Picture of the Day](https://apod.nasa.gov/apod/).
-
-If you're looking for help managing your IT, check out [Tech Support Now](https://www.tsntx.com).
