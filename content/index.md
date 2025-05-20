@@ -24,4 +24,4 @@ Get-MgUser -All | Format-Table
 
 Want to see something cool -> [Astronomy Picture of the Day](https://apod.nasa.gov/apod/).
 
-For the Fonts -> [Fonts](/Notes/Fonts)
+For the Fonts -> [Fonts](/Fonts)
